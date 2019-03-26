@@ -1,11 +1,31 @@
 {
-  "name": "ui",
-  "version": "0.1.0",
+  "name": "govote",
+  "version": "0.0.1",
   "private": true,
+  "proxy": "http://localhost:3001",
   "dependencies": {
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-scripts": "2.1.8"
+    "axios": "^0.16.2",
+    "es6-promise": "^4.0.5",
+    "eslint-loader": "^1.9.0",
+    "esri-leaflet-geocoder": "^2.2.6",
+    "jest": "^21.1.0",
+    "leaflet": "^1.1.0",
+    "leaflet-geosearch": "^2.6.0",
+    "postcss-flexbugs-fixes": "^3.2.0",
+    "postcss-loader": "^2.0.6",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
+    "react-dev-utils": "^4.0.1",
+    "react-dom": "^15.4.2",
+    "react-leaflet": "^1.4.1",
+    "react-leaflet-control": "^1.4.1",
+    "react-render-html": "^0.1.6",
+    "react-router": "^3.0.2",
+    "react-router-bootstrap": "^0.23.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.8",
+    "request": "^2.88.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,13 +33,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "html-loader": "^0.5.1",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "style-loader": "^0.18.2"
+  }
 }
