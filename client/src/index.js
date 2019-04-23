@@ -5,4 +5,5 @@ import App from './components/App.jsx';
 import registerServiceWorker from './registerServiceWorker';
 
 render(<App />, document.getElementById('app'));
+
 registerServiceWorker();
