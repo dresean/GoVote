@@ -43,9 +43,9 @@ module.exports = {
   dotenv: resolveApp('.env'),
   appBuild: resolveApp('client/build'),
   appPublic: resolveApp('client/public'),
-  appHtml: resolveApp('public/index.html'),
+  appHtml: resolveApp('client/public/index.html'),
   appIndexJs: resolveApp('client/src/index.js'),
-  appPackageJson: resolveApp('package.json'),
+  appPackageJson: resolveApp('client/package.json'),
   appSrc: resolveApp('client/src'),
   yarnLockFile: resolveApp('yarn.lock'),
   testsSetup: resolveApp('client/src/setupTests.js'), // this file doesn't exist in src
